@@ -1,5 +1,4 @@
 class ScratchPi {
-    //Converted from https://raw.githubusercontent.com/NitroCipher/NitroBlock/master/MainScript.js to Scratch 3.0 using Ext2to3!
     getInfo() {
         return {
             "id": "ScratchPi",
@@ -413,4 +412,4 @@ class ScratchPi {
         return m;
     }
 }
-Scratch.extensions.register(new NitroBlock());
+Scratch.extensions.register(new ScratchPi());
