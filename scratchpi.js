@@ -1,4 +1,5 @@
 class ScratchPi {
+    //Converted from https://raw.githubusercontent.com/NitroCipher/NitroBlock/master/MainScript.js to Scratch 3.0 using Ext2to3!
     getInfo() {
         return {
             "id": "ScratchPi",
@@ -8,6 +9,16 @@ class ScratchPi {
                 "blockType": "Boolean",
                 "text": "nitroblock?",
                 "arguments": {}
+            }, {
+                "opcode": "color",
+                "blockType": "reporter",
+                "text": "color [color]",
+                "arguments": {
+                    "color": {
+                        "type": "color",
+                        "defaultValue": 0
+                    }
+                }
             }, {
                 "opcode": "rgb",
                 "blockType": "reporter",
