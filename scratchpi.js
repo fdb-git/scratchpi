@@ -1,9 +1,9 @@
-class NitroBlock {
+class ScratchPi {
     //Converted from https://raw.githubusercontent.com/NitroCipher/NitroBlock/master/MainScript.js to Scratch 3.0 using Ext2to3!
     getInfo() {
         return {
-            "id": "NitroBlock",
-            "name": "NitroBlock",
+            "id": "ScratchPi",
+            "name": "ScratchPi",
             "blocks": [{
                 "opcode": "ncheck",
                 "blockType": "Boolean",
