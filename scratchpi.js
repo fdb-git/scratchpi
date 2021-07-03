@@ -2,7 +2,7 @@ class ScratchPi {
     getInfo() {
         return {
             "id": "ScratchPi",
-            "name": "ScratchPi",
+            "name": "ScratchPi2",
             "blocks": [{
                 "opcode": "ncheck",
                 "blockType": "Boolean",
